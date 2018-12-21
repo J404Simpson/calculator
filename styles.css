@@ -1,6 +1,6 @@
 body {
   width: 500px;
-  margin: 4% auto;
+  margin: 20px auto;
   font-family: 'Source Sans Pro', sans-serif;
   letter-spacing: 5px;
   font-size: 1.8rem;
@@ -14,9 +14,11 @@ body {
   -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
   border-radius: 1px;
+  background-color: black;
 }
 
 .display {
+  background-color: white;
   border: 1px solid #ddd;
   border-radius: 1px;
   height: 60px;
@@ -66,20 +68,22 @@ body {
   display: inline-block;
 }
 
-.numbers div {
+.button {
   display: inline-block;
   border: 1px solid #ddd;
   border-radius: 1px;
-  width: 80px;
+  height: 72px;
+  width: 105px;
   text-align: center;
+  font-size: 2.5rem;
   padding: 10px;
-  margin: 10px 4px 10px 0;
+  margin: 10px 0px 10px 0;
   cursor: pointer;
-  background-color: #f9f9f9;
+  background-color: white;
   transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
 }
 
-.numbers div:hover {
+.button:hover {
   background-color: #f1f1f1;
   -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
@@ -90,29 +94,30 @@ body {
   font-weight: bold;
 }
 
-div.equal {
+.equal {
   display: inline-block;
-  border: 1px solid #3079ED;
+  border: 1px solid grey;
   border-radius: 1px;
-  width: 17%;
-  height: 2.5%;
+  width: 105px;
+  height: 348px;
   text-align: center;
+  font-size: 2.5rem;
   padding: 127px 10px;
   margin: 10px 0px 10px 0;
   vertical-align: top;
   cursor: pointer;
-  color: #FFF;
-  background-color: #4d90fe;
-  transition: all .2s ease-in-out;
+  color: black;
+  background-color: light grey;
+  transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;;
 }
 
-div.equal:hover {
-  background-color: #307CF9;
+.equal:hover {
+  background-color: #f1f1f1;
   -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-  border-color: #1857BB;
+  border-color: #bbb;
 }
 
-div.equal:active {
+.equal:active {
   font-weight: bold;
 }
