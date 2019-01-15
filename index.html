@@ -1,10 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <div class="calculator">
-    <div class="display" id="display">0</div>
+    <div class="display" id="display"><input type="text" class="display" value="0" disabled /></div>
+
     <div class="buttons">
       <div class="operators">
         <button class=button id="add">+</button>
@@ -24,7 +31,7 @@
           <button class=button id="six">6</button>
         </div>
         <div class="numbers">
-          <button class=button id="one" value='1'>1</button>
+          <button class=button id="one" value="1">1</button>
           <button class=button id="two">2</button>
           <button class=button id="three">3</button>
         </div>
