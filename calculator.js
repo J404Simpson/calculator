@@ -27,14 +27,16 @@ function startCalc() {
   }
   function getTotal() {
     totalString = inputs.join('')
-    $('#output').html(eval(totalString))
+    $('#output').html(totalString)
     $('#equation').html(eval(totalString))
   }
 
   $('button').on('click', function() {
     if (this.id === 'Clear_Entry') {
-      inputs.pop()
-      update()
+      $('#output').html('')
+      $('#equation').html('0')
+      totalString = null
+      inputs = ['']
     } else if (this.id === 'total') {
       getTotal()
     } else {
