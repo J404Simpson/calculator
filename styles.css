@@ -1,5 +1,5 @@
 body {
-  width: 500px;
+  width: 502px;
   margin: 20px auto;
   font-family: 'Source Sans Pro', sans-serif;
   letter-spacing: 5px;
@@ -21,9 +21,8 @@ body {
   background-color: white;
   border: 1px solid #ddd;
   border-radius: 1px;
-  height: 60px;
+  height: 120px;
   padding-right: 15px;
-  padding-top: 10px;
   text-align: right;
   font-size: 2.5rem;
   overflow-x: auto;
@@ -36,9 +35,17 @@ body {
   box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
 }
 
-.buttons {}
+#equation {
+  height: 60px;
+  font-size: 100%;
+  margin: 0px;
+}
 
-.operators {}
+#output {
+  height: 60px;
+  font-size: 75%;
+  margin: 0px;
+}
 
 .operators div {
   display: inline-block;
